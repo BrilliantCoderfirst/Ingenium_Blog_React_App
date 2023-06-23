@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Ingenium_Blog_React_App/static/css/main.114f9d23.css",
+    "main.js": "/Ingenium_Blog_React_App/static/js/main.414581f1.js",
+    "index.html": "/Ingenium_Blog_React_App/index.html",
+    "main.114f9d23.css.map": "/Ingenium_Blog_React_App/static/css/main.114f9d23.css.map",
+    "main.414581f1.js.map": "/Ingenium_Blog_React_App/static/js/main.414581f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.114f9d23.css",
+    "static/js/main.414581f1.js"
+  ]
+}
