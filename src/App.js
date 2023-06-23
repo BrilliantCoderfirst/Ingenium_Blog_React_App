@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Home from "./pages/Home";
+import MainNavbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Details from "./pages/Details";
+import Favorite from "./pages/Favorite";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <MainNavbar />
+      <Routes>
+        <Route path="/Ingenium_Blog_React_App/" element={<Home />} />
+        <Route path="/details/:userId/:id" element={<Details />} />
+        <Route path="/favorite" element={<Favorite />} />
+      </Routes>
+      <Footer />
+    </>
   );
 }
 
